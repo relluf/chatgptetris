@@ -2,6 +2,9 @@
 
 This is a simple implementation of the classic game Tetris using JavaScript. The code in this repository has been generated using the ChatGPT language model by OpenAI.
 
+* [Tetris Web Game Creation
+](https://chat.openai.com/share/f4af545f-77dd-403a-8504-a119deac7d1e)
+
 ## Description
 
 Tetris is a tile-matching puzzle game where the player aims to complete horizontal lines by moving and rotating falling blocks. As the lines are cleared, the player earns points and the game becomes progressively faster.
