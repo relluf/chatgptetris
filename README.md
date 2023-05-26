@@ -16,12 +16,12 @@ To run the game locally, follow these steps:
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/relluf/chatgptetris.git tetris-game
+   git clone https://github.com/relluf/chatgptetris.git
    ```
 
 2. Open the project directory:
    ```shell
-   cd tetris-game
+   cd chatgptetris
    ```
 
 3. Open the index.html file in a web browser.
@@ -57,20 +57,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ```
 
-Feel free to further modify the content as needed.
-This is a simple implementation of the classic game Tetris using JavaScript.
-
-## Description
-
-Tetris is a tile-matching puzzle game where the player aims to complete horizontal lines by moving and rotating falling blocks. As the lines are cleared, the player earns points and the game becomes progressively faster.
-
-This implementation includes features such as block movement, rotation, line clearing, scoring, and game over condition.
-
-## Installation
-
-To run the game locally, follow these steps:
-
-1. Clone the repository:
-   ```shell
-   git clone https://github.com/relluf/chatgptetris.git
-
+Please let me know if there are any further adjustments or additions you would like to make.
