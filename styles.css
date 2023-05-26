@@ -1,0 +1,145 @@
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 2px solid #999;
+	transition: transform 0.3s ease;
+}
+
+.game-board .block {
+	border: 1px solid #2c3637;
+	box-sizing: border-box;
+	filter: brightness(1.15); /* Adjust the value as needed */
+}
+.game-board .block.filled {
+	border-color: white;
+}
+.game-board .block.filled:not(.current) {
+	/*background-color: yellow;*/
+	filter: brightness(0.925); /* Adjust the value as needed */
+}
+
+.block.I {
+  background-color: #00FF00; /* Bright Green */
+}
+.block.J {
+  background-color: #FF00FF; /* Bright Purple */
+}
+.block.L {
+  background-color: #00FFFF; /* Cyan */
+}
+.block.O {
+  background-color: blue;/*#FFFF00; /* Yellow */
+}
+.block.S {
+  background-color: yellow; /* Spring Green */
+}
+.block.T {
+  background-color: orange;/*#FF7F00; /* Dark Orange */
+}
+.block.Z {
+  background-color: red;/*#FF00AA; /* Magenta */
+}
+
+.block.J.green {
+  background-color: lime;/*#489657; /* Dark Green */
+}
+.block.I.green {
+  background-color: #61c57b; /* Light Green */
+}
+.block.L.green {
+  background-color: #316d42; /* Forest Green */
+}
+.block.O.green {
+  background-color: #a3ff94; /* Mint Green */
+}
+.block.S.green {
+  background-color: lightgreen;/*#1b4223; /* Deep Green */
+}
+.block.T.green {
+  background-color: #7af0a3; /* Pale Green */
+}
+.block.Z.green {
+  background-color: #82ca9c; /* Sea Green */
+}
+
+.block.I.alt {
+  background-color: blue;/*#2ed2e7; /* Bright Cyan */
+}
+.block.J.alt {
+  background-color: red;/*#eb5454; /* Bright Red */
+}
+.block.L.alt {
+  background-color: cyan;/*#ff9f43; /* Bright Orange */
+}
+.block.O.alt {
+  background-color: yellow;/*#ffc107; /* Bright Yellow */
+}
+.block.S.alt {
+  background-color: lime;/*#59d96b; /* Bright Green */
+}
+.block.T.alt {
+  background-color: orange;/*#a17aff; /* Bright Purple */
+}
+.block.Z.alt {
+  background-color: hotpink;/*#ff6bcb; /* Bright Pink */
+}
+
+.paused {
+	transform: scale(0.9) rotate(135deg); /* Example distortion effect */
+	opacity: 0.7; /* Example transparency effect */
+	filter: blur(25px) grayscale(10%); /* Example grayscale effect */
+	/* Add any other styles or effects you want to apply when the game is paused */
+}
+
+.block {
+    background-color: #333;
+    border: 1px solid #666;
+}
+
+.controls {
+    margin-top: 20px;
+}
+.score {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.speed { font-size: 6pt; }
+
+.next-block-container {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #ccc;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.next-block {
+  width: 100%;
+  height: 100%;
+}
+
+.next-block .block {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.next-block .filled {
+  background-color: #000;
+}
+

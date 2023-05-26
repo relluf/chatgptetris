@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tetris Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-board">
+            <!-- The game board will be dynamically generated using JavaScript -->
+        </div>
+		<div class="block-list">
+		  <div class="block-container">
+		    <div class="block"></div>
+		  </div>
+		  <!-- Repeat the following block-container for each block configuration -->
+		</div>
+		<!--<div class="next-block-container">-->
+		<!--	<div class="next-block"></div>-->
+		<!--</div>-->
+
+   <!--     <div class="controls">-->
+   <!--         <button id="move-left">Left</button>-->
+   <!--         <button id="move-right">Right</button>-->
+			<!--<button id="rotate-counterclockwise">&lt; Rotate</button>-->
+			<!--<button id="rotate-clockwise">Rotate &gt;</button>-->
+   <!--         <button id="move-down">Down</button>-->
+   <!--         <button id="drop">Drop</button>-->
+   <!--     </div>-->
+
+        <div class="score">
+        Score: <span id="score-value">0</span>
+        </div>
+        <div class="lines">
+        Lines: <span id="lines-value">0</span>
+        </div>
+        <div class="speed">
+        Speed: <span id="speed-value">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
