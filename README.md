@@ -45,11 +45,44 @@ The game includes a scoring system based on the Game Boy Tetris version:
   - 3 lines: 300 points.
   - 4 lines (Tetris): 1200 points.
 
-## Future Improvements
+## Feature Status
 
-- Implement a high score tracking feature.
-- Add sound effects and background music.
-- Improve the user interface and game graphics.
+| Feature                                                   | Status |
+|-----------------------------------------------------------|--------|
+| Install a server                                          | √      |
+| Score                                                     | √      |
+| Number of lines completed                                 | √      |
+| Time playing                                              |        |
+| Number of blocks                                          |        |
+| Number of blocks, per Tetrimino                           |        |
+| Number of Tetris in a Row                                 |        |
+| Smooth animations for dropping, moving and rotating       |        |
+| Drop at the start of the next "block-frame"               |        |
+| Game Over state                                           |        |
+| Scoring                                                   |        |
+| Make 5 suggestions to make the game even more fun to play |        |
+| Track player movements for rewind/replay                  |        |
+| Anticipate iPad-like device and introduce big buttons     |        |
+| Glow effect around the edges of the current block         |        |
+| Multi Player                                              |        |
+| Code changes to log game messages for analysis            |        |
+| Simulate Game Boy's selection look and feel               |        |
+| Same block sequence for both players in multiplayer       |        |
+| Visible next block                                        |        |
+| Immediate line clearing when block is dropped             |        |
+| Blinking lines after line clear                           |        |
+| Scoring system description                                |        |
+| Same delay between drops                                  | √      |
+| Darker colors for merged blocks                           | √      |
+| Distorted board during pause                              | √      |
+| Ability to rotate the block in both directions            | √      |
+| Key-to-action mapping implementation                      | √      |
+| Natural block rotation and toggling                       | √      |
+| Handling Tetris causing Game Over                         | √      |
+| Bug fix for non-dropped block causing Game Over           | √      |
+
+Please note that the features without a status haven't been marked as completed (√) in the provided TODO list.
+
 
 ## License
 
